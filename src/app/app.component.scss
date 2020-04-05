@@ -1,0 +1,14 @@
+@import '../styles/variables';
+
+aside {
+    padding: 2.5rem;
+    position: fixed;
+    top: $header-height;
+    left: 0;
+    bottom: 0;
+}
+
+main {
+    background: #F4F9FC;
+    margin: $header-height 0 0 $sidebar-width;
+}

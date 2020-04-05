@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+figure {
+    text-align: center;
+    font-size: 0.8rem;
+    color: $blue-dark;
+
+    figcaption {
+        margin-top: 10px;
+    }
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+
+    a {
+        height: 3.125rem;
+        display: flex;
+        align-items: center;
+        color: $blue-grey;
+    }
+}

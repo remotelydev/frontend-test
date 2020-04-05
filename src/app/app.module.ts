@@ -5,9 +5,11 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './header/header.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, HeaderComponent, SidebarComponent],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
