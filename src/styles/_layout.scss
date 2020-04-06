@@ -1,3 +1,5 @@
+@import '../styles/variables';
+
 body {
   font-family: 'Soleil', sans-serif;
 }
@@ -12,4 +14,14 @@ a {
   &:hover {
     text-decoration: underline;
   }
+}
+
+button {
+  min-width: 7.5rem;
+  min-height: 2.5rem;
+  background: $blue;
+  color: $white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
 }

@@ -1,0 +1,11 @@
+<div class="item" *ngIf="item">
+    <h2>{{ item.title }}</h2>
+
+    <button routerLink="/items/{{item.id}}">Button</button>
+</div>
+
+<div class="padded" *ngIf="item.children">
+    <app-item *ngFor="let child of item.children" [item]="child">
+        {{child.title}}
+    </app-item>
+</div>

@@ -9,6 +9,11 @@ aside {
 }
 
 main {
-    background: #F4F9FC;
+    // width: calc(100vw - #{$sidebar-width});
+    min-height: calc(100vh - #{$header-height} - 5rem);
     margin: $header-height 0 0 $sidebar-width;
+    padding: 2.5rem 4.375rem;
+    background: $blue-light;
+    // display: flex;
+    // flex-direction: column;
 }
